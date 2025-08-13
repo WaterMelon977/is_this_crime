@@ -502,6 +502,10 @@
 @layer components;
 
 @layer utilities {
+  .invisible {
+    visibility: hidden;
+  }
+
   .absolute {
     position: absolute;
   }
