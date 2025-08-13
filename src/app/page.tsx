@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
+import type React from "react";
 
 type ShowcaseItemData = {
   image_url: string;
@@ -76,7 +77,7 @@ function ShowcaseItem({ image_url, text }: ShowcaseItemData) {
   );
 }
 
-function IntroSlide({ title }: { title: string }) {
+function IntroSlide() {
   return (
     <section className="relative min-h-screen flex items-center justify-center">
       <Image
@@ -129,19 +130,23 @@ export default function Home() {
 
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "ArrowRight") goNext();
-      if (e.key === "ArrowLeft") goPrev();
+      if (e.key === "ArrowRight") {
+        setIndex((i) => (i + 1) % totalSlides);
+      }
+      if (e.key === "ArrowLeft") {
+        setIndex((i) => (i - 1 + totalSlides) % totalSlides);
+      }
     };
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, []);
+  }, [totalSlides]);
 
-  const onTouchStart = (e: any) => {
+  const onTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
     touchStartX.current = e.touches[0].clientX;
     touchEndX.current = null;
   };
 
-  const onTouchMove = (e: any) => {
+  const onTouchMove = (e: React.TouchEvent<HTMLDivElement>) => {
     touchEndX.current = e.touches[0].clientX;
   };
 
@@ -167,7 +172,7 @@ export default function Home() {
         onTouchEnd={onTouchEnd}
       >
         {index === 0 ? (
-          <IntroSlide title={items[0]?.text || ""} />
+          <IntroSlide />
         ) : index === totalSlides - 1 ? (
           <InfinitySlide />
         ) : (
