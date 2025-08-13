@@ -47,15 +47,15 @@ var _s = __turbopack_context__.k.signature();
 const items = [
     {
         image_url: "/0.jpg",
-        text: "Once upon a time I was down after my sad ending in pursuing IAS , then a girl came into my life and kindred my broken spirit. I was genuinely awestruck by her charming personality and honest empathy in trying to rekindle a downed spirit. We drank together .we chilled that night. Year loads of sad memories and darkness  ,vanished into thin air after that and hence began my genuine love for her."
+        text: "Once upon a time I was down after my sad ending in pursuing IAS , then a girl came into my life and kindred my broken spirit. I was genuinely awestruck by her charming personality 🤩 and honest empathy in trying to rekindle a downed spirit. We drank together .we chilled that night. Year loads of sad memories and darkness  ,vanished into thin air after that and hence began my genuine love for her ❤️."
     },
     {
         image_url: "/1.jpg",
-        text: "And this is a photo of her family ( taken by me ofcourse) and here you can see a bond , a bond between her father and mother. As is shown in this picture she is that bond.  Subbu acts like a bond that always brings her family together.Not only this her trying to look after Bhargavi and try to reconnect with her.She is always there for her mother everyday , they talk everything that happened (amazing mom daughter energy).Always supports her brother , fights for him also (you should ask devi and prabhas about this by the way).  She always tries to make right with a wrong , always trying to brighten everyones day around her.Buying a drone for her brother and buying a finger directed remote car for her little brother. Always she strives to make better of things around her .This is a showcase to how much she values family , relationships and bonds . Her husband no doubt would be the luckiest bastard ever."
+        text: "And this is a photo of her family ( taken by me ofcourse 😎) and here you can see a bond , a bond between her father and mother. As is shown in this picture she is that bond ❤️.  Subbu acts like a bond that always brings her family together.Not only this her trying to look after Bhargavi and try to reconnect with her.She is always there for her mother everyday , they talk everything that happened (amazing mom daughter energy 🤩).Always supports her brother , fights for him also 💪(you should ask devi and prabhas about this by the way).  She always tries to make right with a wrong , always trying to brighten everyones day around her.Buying a drone for her brother and buying a finger directed remote car for her little brother 😍. Always she strives to make better of things around her .This is a showcase to how much she values family , relationships and bonds . Her husband no doubt would be the luckiest bastard ever 😅."
     },
     {
         image_url: "/2.jpg",
-        text: "She loves water, adventures, hiking, and being surrounded by nature. Guess who loves all of that too? ( Hint: he's standing right beside her in the picture above. )  With you, every trip feels magical, every vibe unmatched. I could travel the entire world with you and never feel a hint of exhaustion—because your presence is my energy."
+        text: "She loves water 🌊, adventures, hiking, and being surrounded by nature. Guess who loves all of that too? ( Hint: he's standing right beside her in the picture above 😁. )  With you, every trip feels magical, every vibe unmatched 👫. I could travel the entire world with you and never feel a hint of exhaustion—because your presence is my energy 💪."
     },
     {
         image_url: "/3.jpg",
