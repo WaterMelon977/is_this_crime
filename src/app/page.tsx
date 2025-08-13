@@ -3,6 +3,9 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import type React from "react";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 type ShowcaseItemData = {
   image_url: string;
@@ -54,7 +57,7 @@ function ShowcaseItem({ image_url, text }: ShowcaseItemData) {
         />
       </div>
       <div className="h-[30vh] lg:h-auto overflow-y-auto p-4 box-border overscroll-contain">
-        <div className="text-base leading-relaxed">
+        <div className={`text-base leading-relaxed ${inter.className}`}>
           {(() => {
             const paragraphs = text.split(/\n{2,}/);
             return paragraphs.map((para, pi) => {
