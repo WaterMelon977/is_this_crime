@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Supraja Sumanth Infinity",
   description: "My love for her",
+  icons: {
+    icon: "/inf.png",
+    shortcut: "/inf.png",
+    apple: "/inf.png",
+  },
 };
 
 export default function RootLayout({
