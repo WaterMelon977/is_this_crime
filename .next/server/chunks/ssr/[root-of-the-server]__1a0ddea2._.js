@@ -52,11 +52,11 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$i
 const items = [
     {
         image_url: "/0.jpg",
-        text: "Once upon a time I was down after my sad ending in pursuing IAS , then a girl came into my life and kindred my broken spirit. I was genuinely awestruck by her charming personality and honest empathy in trying to rekindle a downed spirit. We drank together .we chilled that night. Year loads of sad memories and darkness  vanished into thin air after that and hence began my genuine love for her."
+        text: "Once upon a time I was down after my sad ending in pursuing IAS , then a girl came into my life and kindred my broken spirit. I was genuinely awestruck by her charming personality and honest empathy in trying to rekindle a downed spirit. We drank together .we chilled that night. Year loads of sad memories and darkness  ,vanished into thin air after that and hence began my genuine love for her."
     },
     {
         image_url: "/1.jpg",
-        text: "And this is a photo of her family ( taken by me ofcourse) and here you can see a bond , a bond between her father and mother. As is shown in this picture she is that bond. Subbu acts like a bond that always brings her family together. Not only this her trying to look after Bhargavi and try to reconnect with her.She is always there for her mother everyday , they talk everything that happened (amazing mom daughter energy).Always supports her brother , fights for him also (you should devi and prabhas about this by the way).  She always tries to make right with a wrong , always trying to brighten everyones day around her.Buying a drone for her brother and buying a finger directed remote car for her little brother. Always she strives to make better of things around her .This is a showcase to how much she values family , relationships and bonds . Her husband no doubt would be the luckiest bastard ever."
+        text: "And this is a photo of her family ( taken by me ofcourse) and here you can see a bond , a bond between her father and mother. As is shown in this picture she is that bond.  Subbu acts like a bond that always brings her family together.Not only this her trying to look after Bhargavi and try to reconnect with her.She is always there for her mother everyday , they talk everything that happened (amazing mom daughter energy).Always supports her brother , fights for him also (you should devi and prabhas about this by the way).  She always tries to make right with a wrong , always trying to brighten everyones day around her.Buying a drone for her brother and buying a finger directed remote car for her little brother. Always she strives to make better of things around her .This is a showcase to how much she values family , relationships and bonds . Her husband no doubt would be the luckiest bastard ever."
     },
     {
         image_url: "/2.jpg",
@@ -72,7 +72,7 @@ const items = [
     },
     {
         image_url: "/5.jpg",
-        text: "To the girl who, despite life’s hardships, carries a smile and never lets her sadness weigh on others. To the professional who, armed only with her degree, earned her place at Wipro and continues to receive heartfelt appreciation from clients. To the devoted daughter who supports her family at every step. To the friend who holds her circle together like glue, planning trips and ensuring no one is left behind. To the bubbly soul everyone in Wipro wants to be around. To the girl who has always stood by me. To the cutest, bravest, and strongest girl I know. Knowing you has been a blessing, and I will always be grateful for the gift of crossing paths with you."
+        text: "To the girl who, despite life's hardships, carries a smile and never lets her sadness weigh on others. To the professional who, armed only with her degree, earned her place at Wipro and continues to receive heartfelt appreciation from clients. To the devoted daughter who supports her family at every step. To the friend who holds her circle together like glue, planning trips and ensuring no one is left behind. To the bubbly soul everyone in Wipro wants to be around. To the girl who has always stood by me. To the cutest, bravest, and strongest girl I know. Knowing you has been a blessing, and I will always be grateful for the gift of crossing paths with you."
     },
     {
         image_url: "/6.jpg",
@@ -105,36 +105,8 @@ function ShowcaseItem({ image_url, text }) {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "h-[30vh] lg:h-auto overflow-y-auto p-4 box-border overscroll-contain",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: `text-base leading-relaxed ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$inter_4617584a$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].className}`,
-                    children: (()=>{
-                        const paragraphs = text.split(/\n{2,}/);
-                        return paragraphs.map((para, pi)=>{
-                            const sentences = para.match(/[^.!?]+[.!?]+(\s|$)/g) || [
-                                para
-                            ];
-                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: pi > 0 ? "mt-4" : undefined,
-                                children: sentences.map((s, si)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: [
-                                            s.trim(),
-                                            si < sentences.length - 1 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/src/app/page.tsx",
-                                                lineNumber: 70,
-                                                columnNumber: 52
-                                            }, this) : null
-                                        ]
-                                    }, si, true, {
-                                        fileName: "[project]/src/app/page.tsx",
-                                        lineNumber: 68,
-                                        columnNumber: 21
-                                    }, this))
-                            }, pi, false, {
-                                fileName: "[project]/src/app/page.tsx",
-                                lineNumber: 66,
-                                columnNumber: 17
-                            }, this);
-                        });
-                    })()
+                    className: `text-base leading-relaxed whitespace-pre-wrap ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$inter_4617584a$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].className}`,
+                    children: text
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
                     lineNumber: 60,
@@ -166,14 +138,14 @@ function IntroSlide() {
                 priority: true
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 86,
+                lineNumber: 73,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 bg-black/40"
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 95,
+                lineNumber: 82,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -181,13 +153,13 @@ function IntroSlide() {
                 children: "Is loving someone genuinely a crime?"
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 96,
+                lineNumber: 83,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/page.tsx",
-        lineNumber: 85,
+        lineNumber: 72,
         columnNumber: 5
     }, this);
 }
@@ -199,14 +171,14 @@ function InfinitySlide() {
                 className: "absolute inset-0 bg-gradient-to-br from-fuchsia-600/40 via-indigo-600/40 to-cyan-500/40"
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 106,
+                lineNumber: 93,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute -inset-20 opacity-30 blur-3xl animate-slow-spin bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.25),transparent_60%)]"
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 107,
+                lineNumber: 94,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -219,7 +191,7 @@ function InfinitySlide() {
                             children: "#SSInfinity"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 110,
+                            lineNumber: 97,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -230,24 +202,24 @@ function InfinitySlide() {
                             children: "SuprajaSumanthInfinity"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 113,
+                            lineNumber: 100,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 109,
+                    lineNumber: 96,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 108,
+                lineNumber: 95,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/page.tsx",
-        lineNumber: 105,
+        lineNumber: 92,
         columnNumber: 5
     }, this);
 }
@@ -301,11 +273,11 @@ function Home() {
             children: [
                 index === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(IntroSlide, {}, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 178,
+                    lineNumber: 165,
                     columnNumber: 11
                 }, this) : index === totalSlides - 1 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(InfinitySlide, {}, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 180,
+                    lineNumber: 167,
                     columnNumber: 11
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "rounded-2xl p-[2px] bg-gradient-to-r from-indigo-500 to-teal-400",
@@ -315,17 +287,17 @@ function Home() {
                             ...items[index - 1]
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 184,
+                            lineNumber: 171,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 183,
+                        lineNumber: 170,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 182,
+                    lineNumber: 169,
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -336,7 +308,7 @@ function Home() {
                     children: "◀"
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 189,
+                    lineNumber: 176,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -347,7 +319,7 @@ function Home() {
                     children: "▶"
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 197,
+                    lineNumber: 184,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -359,18 +331,18 @@ function Home() {
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 206,
+                    lineNumber: 193,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 171,
+            lineNumber: 158,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/page.tsx",
-        lineNumber: 170,
+        lineNumber: 157,
         columnNumber: 5
     }, this);
 }

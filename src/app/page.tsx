@@ -15,11 +15,11 @@ type ShowcaseItemData = {
 const items: ShowcaseItemData[] = [
   {
     image_url: "/0.jpg",
-    text: "Once upon a time I was down after my sad ending in pursuing IAS , then a girl came into my life and kindred my broken spirit. I was genuinely awestruck by her charming personality and honest empathy in trying to rekindle a downed spirit. We drank together .we chilled that night. Year loads of sad memories and darkness  vanished into thin air after that and hence began my genuine love for her.",
+    text: "Once upon a time I was down after my sad ending in pursuing IAS , then a girl came into my life and kindred my broken spirit. I was genuinely awestruck by her charming personality and honest empathy in trying to rekindle a downed spirit. We drank together .we chilled that night. Year loads of sad memories and darkness  ,vanished into thin air after that and hence began my genuine love for her.",
   },
   {
     image_url: "/1.jpg",
-    text: "And this is a photo of her family ( taken by me ofcourse) and here you can see a bond , a bond between her father and mother. As is shown in this picture she is that bond. Subbu acts like a bond that always brings her family together. Not only this her trying to look after Bhargavi and try to reconnect with her.She is always there for her mother everyday , they talk everything that happened (amazing mom daughter energy).Always supports her brother , fights for him also (you should devi and prabhas about this by the way).  She always tries to make right with a wrong , always trying to brighten everyones day around her.Buying a drone for her brother and buying a finger directed remote car for her little brother. Always she strives to make better of things around her .This is a showcase to how much she values family , relationships and bonds . Her husband no doubt would be the luckiest bastard ever.",
+    text: "And this is a photo of her family ( taken by me ofcourse) and here you can see a bond , a bond between her father and mother. As is shown in this picture she is that bond.  Subbu acts like a bond that always brings her family together.Not only this her trying to look after Bhargavi and try to reconnect with her.She is always there for her mother everyday , they talk everything that happened (amazing mom daughter energy).Always supports her brother , fights for him also (you should devi and prabhas about this by the way).  She always tries to make right with a wrong , always trying to brighten everyones day around her.Buying a drone for her brother and buying a finger directed remote car for her little brother. Always she strives to make better of things around her .This is a showcase to how much she values family , relationships and bonds . Her husband no doubt would be the luckiest bastard ever.",
   },
   {
     image_url: "/2.jpg",
@@ -35,7 +35,7 @@ const items: ShowcaseItemData[] = [
   },
   {
     image_url: "/5.jpg",
-    text: "To the girl who, despite life’s hardships, carries a smile and never lets her sadness weigh on others. To the professional who, armed only with her degree, earned her place at Wipro and continues to receive heartfelt appreciation from clients. To the devoted daughter who supports her family at every step. To the friend who holds her circle together like glue, planning trips and ensuring no one is left behind. To the bubbly soul everyone in Wipro wants to be around. To the girl who has always stood by me. To the cutest, bravest, and strongest girl I know. Knowing you has been a blessing, and I will always be grateful for the gift of crossing paths with you.",
+    text: "To the girl who, despite life's hardships, carries a smile and never lets her sadness weigh on others. To the professional who, armed only with her degree, earned her place at Wipro and continues to receive heartfelt appreciation from clients. To the devoted daughter who supports her family at every step. To the friend who holds her circle together like glue, planning trips and ensuring no one is left behind. To the bubbly soul everyone in Wipro wants to be around. To the girl who has always stood by me. To the cutest, bravest, and strongest girl I know. Knowing you has been a blessing, and I will always be grateful for the gift of crossing paths with you.",
   },
   {
     image_url: "/6.jpg",
@@ -57,23 +57,10 @@ function ShowcaseItem({ image_url, text }: ShowcaseItemData) {
         />
       </div>
       <div className="h-[30vh] lg:h-auto overflow-y-auto p-4 box-border overscroll-contain">
-        <div className={`text-base leading-relaxed ${inter.className}`}>
-          {(() => {
-            const paragraphs = text.split(/\n{2,}/);
-            return paragraphs.map((para, pi) => {
-              const sentences = para.match(/[^.!?]+[.!?]+(\s|$)/g) || [para];
-              return (
-                <p key={pi} className={pi > 0 ? "mt-4" : undefined}>
-                  {sentences.map((s, si) => (
-                    <span key={si}>
-                      {s.trim()}
-                      {si < sentences.length - 1 ? <br /> : null}
-                    </span>
-                  ))}
-                </p>
-              );
-            });
-          })()}
+        <div
+          className={`text-base leading-relaxed whitespace-pre-wrap ${inter.className}`}
+        >
+          {text}
         </div>
       </div>
     </section>
