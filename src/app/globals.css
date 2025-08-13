@@ -24,3 +24,49 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes shimmer {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(12px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slowSpin {
+  from { transform: rotate(0deg) scale(1); }
+  to { transform: rotate(360deg) scale(1); }
+}
+
+.animate-shimmer {
+  background-size: 200% 200%;
+  animation: shimmer 3s linear infinite;
+}
+
+.animate-fade-up {
+  animation: fadeUp 700ms ease-out both;
+}
+
+.animate-slow-spin {
+  animation: slowSpin 30s linear infinite;
+}
+
+/* Gradient outline utility used to frame slides */
+.gradient-outline {
+  position: relative;
+  border-radius: 1rem; /* matches rounded-2xl */
+}
+.gradient-outline::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 2px; /* outline thickness */
+  background: linear-gradient(90deg, #6366f1, #14b8a6); /* indigo-500 → teal-400 */
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
